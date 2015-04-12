@@ -1,0 +1,335 @@
+SH SERIES C/C++ Compiler (Ver. 6.0C)                                                                 04-Apr-2015 14:05:14  PAGE    1
+
+************ OBJECT LISTING ************
+
+FILE NAME: C:\Users\mosnier\Desktop\Periodiq\tableau périodique\SPRITE.c
+
+SCT OFFSET   CODE       C LABEL     INSTRUCTION OPERAND    COMMENT
+
+        SPRITE.c     1    #include "SPRITE.h"
+        SPRITE.c     2    const unsigned char TABLEAU_MINI[]={
+        SPRITE.c     3            0xfc, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x7, 0xff, 
+        SPRITE.c     4            0x84, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x4, 0x3f, 
+        SPRITE.c     5            0x84, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x4, 0x3f, 
+        SPRITE.c     6            0x84, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x4, 0x3f, 
+        SPRITE.c     7            0x84, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x4, 0x3f, 
+        SPRITE.c     8            0xff, 0xe0, 0x0, 0x0, 0x0, 0x0, 0x0, 0xf, 0xff, 0xff, 0xff, 0xff, 
+        SPRITE.c     9            0x84, 0x20, 0x0, 0x0, 0x0, 0x0, 0x0, 0x8, 0x42, 0x10, 0x84, 0x3f, 
+        SPRITE.c    10            0x84, 0x20, 0x0, 0x0, 0x0, 0x0, 0x0, 0x8, 0x42, 0x10, 0x84, 0x3f, 
+        SPRITE.c    11            0x84, 0x20, 0x0, 0x0, 0x0, 0x0, 0x0, 0x8, 0x42, 0x10, 0x84, 0x3f, 
+        SPRITE.c    12            0x84, 0x20, 0x0, 0x0, 0x0, 0x0, 0x0, 0x8, 0x42, 0x10, 0x84, 0x3f, 
+        SPRITE.c    13            0xff, 0xe0, 0x0, 0x0, 0x0, 0x0, 0x0, 0xf, 0xff, 0xff, 0xff, 0xff, 
+        SPRITE.c    14            0x84, 0x20, 0x0, 0x0, 0x0, 0x0, 0x0, 0x8, 0x42, 0x10, 0x84, 0x3f, 
+        SPRITE.c    15            0x84, 0x20, 0x0, 0x0, 0x0, 0x0, 0x0, 0x8, 0x42, 0x10, 0x84, 0x3f, 
+        SPRITE.c    16            0x84, 0x20, 0x0, 0x0, 0x0, 0x0, 0x0, 0x8, 0x42, 0x10, 0x84, 0x3f, 
+        SPRITE.c    17            0x84, 0x20, 0x0, 0x0, 0x0, 0x0, 0x0, 0x8, 0x42, 0x10, 0x84, 0x3f, 
+        SPRITE.c    18            0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
+        SPRITE.c    19            0x84, 0x21, 0x8, 0x42, 0x10, 0x84, 0x21, 0x8, 0x42, 0x10, 0x84, 0x3f, 
+        SPRITE.c    20            0x84, 0x21, 0x8, 0x42, 0x10, 0x84, 0x21, 0x8, 0x42, 0x10, 0x84, 0x3f, 
+        SPRITE.c    21            0x84, 0x21, 0x8, 0x42, 0x10, 0x84, 0x21, 0x8, 0x42, 0x10, 0x84, 0x3f, 
+        SPRITE.c    22            0x84, 0x21, 0x8, 0x42, 0x10, 0x84, 0x21, 0x8, 0x42, 0x10, 0x84, 0x3f, 
+        SPRITE.c    23            0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
+        SPRITE.c    24            0x84, 0x21, 0x8, 0x42, 0x10, 0x84, 0x21, 0x8, 0x42, 0x10, 0x84, 0x3f, 
+        SPRITE.c    25            0x84, 0x21, 0x8, 0x42, 0x10, 0x84, 0x21, 0x8, 0x42, 0x10, 0x84, 0x3f, 
+        SPRITE.c    26            0x84, 0x21, 0x8, 0x42, 0x10, 0x84, 0x21, 0x8, 0x42, 0x10, 0x84, 0x3f, 
+        SPRITE.c    27            0x84, 0x21, 0x8, 0x42, 0x10, 0x84, 0x21, 0x8, 0x42, 0x10, 0x84, 0x3f, 
+        SPRITE.c    28            0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
+        SPRITE.c    29            0x84, 0x21, 0x8, 0x42, 0x10, 0x84, 0x21, 0x8, 0x42, 0x10, 0x84, 0x3f, 
+        SPRITE.c    30            0x84, 0x29, 0x8, 0x42, 0x10, 0x84, 0x21, 0x8, 0x42, 0x10, 0x84, 0x3f, 
+        SPRITE.c    31            0x84, 0x29, 0x8, 0x42, 0x10, 0x84, 0x21, 0x8, 0x42, 0x10, 0x84, 0x3f, 
+        SPRITE.c    32            0x84, 0x2d, 0x8, 0x42, 0x10, 0x84, 0x21, 0x8, 0x42, 0x10, 0x84, 0x3f, 
+        SPRITE.c    33            0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
+        SPRITE.c    34            0x84, 0x29, 0x8, 0x42, 0x10, 0x84, 0x21, 0x8, 0x42, 0x10, 0x84, 0x3f, 
+        SPRITE.c    35            0x84, 0x35, 0x8, 0x42, 0x10, 0x84, 0x21, 0x8, 0x42, 0x10, 0x84, 0x3f, 
+        SPRITE.c    36            0x84, 0x3d, 0x8, 0x42, 0x10, 0x84, 0x21, 0x8, 0x42, 0x10, 0x84, 0x3f, 
+        SPRITE.c    37            0x84, 0x35, 0x8, 0x42, 0x10, 0x84, 0x21, 0x8, 0x42, 0x10, 0x84, 0x3f, 
+        SPRITE.c    38            0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
+        SPRITE.c    39            0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1f, 
+        SPRITE.c    40            0x0, 0x1, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
+        SPRITE.c    41            0x0, 0x1, 0x8, 0x42, 0x10, 0x84, 0x21, 0x8, 0x42, 0x10, 0x84, 0x3f, 
+        SPRITE.c    42            0x0, 0x9, 0x8, 0x42, 0x10, 0x84, 0x21, 0x8, 0x42, 0x10, 0x84, 0x3f, 
+        SPRITE.c    43            0x0, 0x9, 0x8, 0x42, 0x10, 0x84, 0x21, 0x8, 0x42, 0x10, 0x84, 0x3f, 
+        SPRITE.c    44            0x0, 0xd, 0x8, 0x42, 0x10, 0x84, 0x21, 0x8, 0x42, 0x10, 0x84, 0x3f, 
+        SPRITE.c    45            0x0, 0x1, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
+        SPRITE.c    46            0x0, 0x9, 0x8, 0x42, 0x10, 0x84, 0x21, 0x8, 0x42, 0x10, 0x84, 0x3f, 
+        SPRITE.c    47            0x0, 0x15, 0x8, 0x42, 0x10, 0x84, 0x21, 0x8, 0x42, 0x10, 0x84, 0x3f, 
+        SPRITE.c    48            0x0, 0x1d, 0x8, 0x42, 0x10, 0x84, 0x21, 0x8, 0x42, 0x10, 0x84, 0x3f, 
+        SPRITE.c    49            0x0, 0x15, 0x8, 0x42, 0x10, 0x84, 0x21, 0x8, 0x42, 0x10, 0x84, 0x3f, 
+        SPRITE.c    50            0x0, 0x1, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
+        SPRITE.c    51    };
+        SPRITE.c    52    
+        SPRITE.c    53    
+        SPRITE.c    54    
+
+
+
+
+SH SERIES C/C++ Compiler (Ver. 6.0C)                                                                 04-Apr-2015 14:05:14  PAGE    2
+
+
+SCT OFFSET   CODE       C LABEL     INSTRUCTION OPERAND    COMMENT
+
+        SPRITE.c    55    const unsigned char select[]={0xbf, 0x5f, 0xaf, 0xdf, };
+C   00000000              _TABLEAU_MINI:                   ; static: TABLEAU_MINI
+    00000000 FC00000000             .DATA.B     H'FC,H'00,H'00,H'00,H'00,H'00,H'00,H'00,H'00,H'00,H'07,H'FF,H'84,H'00,H'00,H'00,
+             0000000000 +                       H'00,H'00,H'00,H'00,H'00,H'00,H'04,H'3F,H'84,H'00,H'00,H'00,H'00,H'00,H'00,H'00,
+             07FF840000 +                       H'00,H'00,H'04,H'3F,H'84,H'00,H'00,H'00,H'00,H'00,H'00,H'00,H'00,H'00,H'04,H'3F,
+             0000000000 +                       H'84,H'00,H'00,H'00,H'00,H'00,H'00,H'00,H'00,H'00,H'04,H'3F,H'FF,H'E0,H'00,H'00,
+             0000043F84 +                       H'00,H'00,H'00,H'0F,H'FF,H'FF,H'FF,H'FF,H'84,H'20,H'00,H'00,H'00,H'00,H'00,H'08,
+             0000000000 +                       H'42,H'10,H'84,H'3F,H'84,H'20,H'00,H'00,H'00,H'00,H'00,H'08,H'42,H'10,H'84,H'3F,
+             0000000004 +                       H'84,H'20,H'00,H'00,H'00,H'00,H'00,H'08,H'42,H'10,H'84,H'3F,H'84,H'20,H'00,H'00,
+             3F84000000 +                       H'00,H'00,H'00,H'08,H'42,H'10,H'84,H'3F,H'FF,H'E0,H'00,H'00,H'00,H'00,H'00,H'0F,
+             0000000000 +                       H'FF,H'FF,H'FF,H'FF,H'84,H'20,H'00,H'00,H'00,H'00,H'00,H'08,H'42,H'10,H'84,H'3F,
+             00043F8400 +                       H'84,H'20,H'00,H'00,H'00,H'00,H'00,H'08,H'42,H'10,H'84,H'3F,H'84,H'20,H'00,H'00,
+             0000000000 +                       H'00,H'00,H'00,H'08,H'42,H'10,H'84,H'3F,H'84,H'20,H'00,H'00,H'00,H'00,H'00,H'08,
+             000000043F +                       H'42,H'10,H'84,H'3F,H'FF,H'FF,H'FF,H'FF,H'FF,H'FF,H'FF,H'FF,H'FF,H'FF,H'FF,H'FF,
+             FFE0000000 +                       H'84,H'21,H'08,H'42,H'10,H'84,H'21,H'08,H'42,H'10,H'84,H'3F,H'84,H'21,H'08,H'42,
+             00000FFFFF +                       H'10,H'84,H'21,H'08
+             FFFF842000   
+             0000000008   
+             4210843F84   
+             2000000000   
+             0008421084   
+             3F84200000   
+             0000000842   
+             10843F8420   
+             0000000000   
+             084210843F   
+             FFE0000000   
+             00000FFFFF   
+             FFFF842000   
+             0000000008   
+             4210843F84   
+             2000000000   
+             0008421084   
+             3F84200000   
+             0000000842   
+             10843F8420   
+             0000000000   
+             084210843F   
+             FFFFFFFFFF   
+             FFFFFFFFFF   
+             FFFF842108   
+             4210842108   
+             4210843F84   
+             2108421084   
+             2108         
+    000000D4 4210843F84             .DATA.B     H'42,H'10,H'84,H'3F,H'84,H'21,H'08,H'42,H'10,H'84,H'21,H'08,H'42,H'10,H'84,H'3F,
+             2108421084 +                       H'84,H'21,H'08,H'42,H'10,H'84,H'21,H'08,H'42,H'10,H'84,H'3F,H'FF,H'FF,H'FF,H'FF,
+             2108421084 +                       H'FF,H'FF,H'FF,H'FF,H'FF,H'FF,H'FF,H'FF,H'84,H'21,H'08,H'42,H'10,H'84,H'21,H'08,
+             3F84210842 +                       H'42,H'10,H'84,H'3F,H'84,H'21,H'08,H'42,H'10,H'84,H'21,H'08,H'42,H'10,H'84,H'3F,
+             1084210842 +                       H'84,H'21,H'08,H'42,H'10,H'84,H'21,H'08,H'42,H'10,H'84,H'3F,H'84,H'21,H'08,H'42,
+             10843FFFFF +                       H'10,H'84,H'21,H'08,H'42,H'10,H'84,H'3F,H'FF,H'FF,H'FF,H'FF,H'FF,H'FF,H'FF,H'FF,
+             FFFFFFFFFF +                       H'FF,H'FF,H'FF,H'FF,H'84,H'21,H'08,H'42,H'10,H'84,H'21,H'08,H'42,H'10,H'84,H'3F,
+             FFFFFFFFFF +                       H'84,H'29,H'08,H'42,H'10,H'84,H'21,H'08,H'42,H'10,H'84,H'3F,H'84,H'29,H'08,H'42,
+             8421084210 +                       H'10,H'84,H'21,H'08,H'42,H'10,H'84,H'3F,H'84,H'2D,H'08,H'42,H'10,H'84,H'21,H'08,
+             8421084210 +                       H'42,H'10,H'84,H'3F,H'FF,H'FF,H'FF,H'FF,H'FF,H'FF,H'FF,H'FF,H'FF,H'FF,H'FF,H'FF,
+             843F842108 +                       H'84,H'29,H'08,H'42,H'10,H'84,H'21,H'08,H'42,H'10,H'84,H'3F,H'84,H'35,H'08,H'42,
+             4210842108 +                       H'10,H'84,H'21,H'08,H'42,H'10,H'84,H'3F,H'84,H'3D,H'08,H'42,H'10,H'84,H'21,H'08,
+
+
+
+
+SH SERIES C/C++ Compiler (Ver. 6.0C)                                                                 04-Apr-2015 14:05:14  PAGE    3
+
+
+SCT OFFSET   CODE       C LABEL     INSTRUCTION OPERAND    COMMENT
+
+             4210843F84 +                       H'42,H'10,H'84,H'3F,H'84,H'35,H'08,H'42,H'10,H'84,H'21,H'08,H'42,H'10,H'84,H'3F,
+             2108421084 +                       H'FF,H'FF,H'FF,H'FF
+             2108421084   
+             3F84210842   
+             1084210842   
+             10843FFFFF   
+             FFFFFFFFFF   
+             FFFFFFFFFF   
+             8421084210   
+             8421084210   
+             843F842908   
+             4210842108   
+             4210843F84   
+             2908421084   
+             2108421084   
+             3F842D0842   
+             1084210842   
+             10843FFFFF   
+             FFFFFFFFFF   
+             FFFFFFFFFF   
+             8429084210   
+             8421084210   
+             843F843508   
+             4210842108   
+             4210843F84   
+             3D08421084   
+             2108421084   
+             3F84350842   
+             1084210842   
+             10843FFFFF   
+             FFFF         
+    000001A8 FFFFFFFFFF             .DATA.B     H'FF,H'FF,H'FF,H'FF,H'FF,H'FF,H'FF,H'FF,H'00,H'00,H'00,H'00,H'00,H'00,H'00,H'00,
+             FFFFFF0000 +                       H'00,H'00,H'00,H'1F,H'00,H'01,H'FF,H'FF,H'FF,H'FF,H'FF,H'FF,H'FF,H'FF,H'FF,H'FF,
+             0000000000 +                       H'00,H'01,H'08,H'42,H'10,H'84,H'21,H'08,H'42,H'10,H'84,H'3F,H'00,H'09,H'08,H'42,
+             000000001F +                       H'10,H'84,H'21,H'08,H'42,H'10,H'84,H'3F,H'00,H'09,H'08,H'42,H'10,H'84,H'21,H'08,
+             0001FFFFFF +                       H'42,H'10,H'84,H'3F,H'00,H'0D,H'08,H'42,H'10,H'84,H'21,H'08,H'42,H'10,H'84,H'3F,
+             FFFFFFFFFF +                       H'00,H'01,H'FF,H'FF,H'FF,H'FF,H'FF,H'FF,H'FF,H'FF,H'FF,H'FF,H'00,H'09,H'08,H'42,
+             FFFF000108 +                       H'10,H'84,H'21,H'08,H'42,H'10,H'84,H'3F,H'00,H'15,H'08,H'42,H'10,H'84,H'21,H'08,
+             4210842108 +                       H'42,H'10,H'84,H'3F,H'00,H'1D,H'08,H'42,H'10,H'84,H'21,H'08,H'42,H'10,H'84,H'3F,
+             4210843F00 +                       H'00,H'15,H'08,H'42,H'10,H'84,H'21,H'08,H'42,H'10,H'84,H'3F,H'00,H'01,H'FF,H'FF,
+             0908421084 +                       H'FF,H'FF,H'FF,H'FF,H'FF,H'FF,H'FF,H'FF
+             2108421084   
+             3F00090842   
+             1084210842   
+             10843F000D   
+             0842108421   
+             084210843F   
+             0001FFFFFF   
+             FFFFFFFFFF   
+             FFFF000908   
+             4210842108   
+             4210843F00   
+             1508421084   
+             2108421084   
+             3F001D0842   
+             1084210842   
+             10843F0015   
+
+
+
+
+SH SERIES C/C++ Compiler (Ver. 6.0C)                                                                 04-Apr-2015 14:05:14  PAGE    4
+
+
+SCT OFFSET   CODE       C LABEL     INSTRUCTION OPERAND    COMMENT
+
+             0842108421   
+             084210843F   
+             0001FFFFFF   
+             FFFFFFFFFF   
+             FFFF         
+    00000240              _select:                         ; static: select
+    00000240 BF5FAFDF               .DATA.B     H'BF,H'5F,H'AF,H'DF
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SH SERIES C/C++ Compiler (Ver. 6.0C)                                                                 04-Apr-2015 14:05:14  PAGE    1
+
+
+******** STATISTICS INFORMATION ********
+
+
+********** ERROR INFORMATION ***********
+
+NUMBER OF ERRORS:           0
+NUMBER OF WARNINGS:         0
+
+
+
+
+******* SOURCE LINE INFORMATION ********
+
+COMPILED SOURCE LINE:       55
+
+
+
+******* SECTION SIZE INFORMATION *******
+
+PROGRAM  SECTION (P):                               00000000 Byte(s)
+CONSTANT SECTION (C):                               00000244 Byte(s)
+DATA     SECTION (D):                               00000000 Byte(s)
+BSS      SECTION (B):                               00000000 Byte(s)
+
+ TOTAL PROGRAM SIZE: 00000244 Byte(s)
+
+
+
+********** LABEL INFORMATION ***********
+
+NUMBER OF EXTERNAL REFERENCE SYMBOLS:            0
+NUMBER OF EXTERNAL DEFINITION SYMBOLS:           2
+NUMBER OF INTERNAL/EXTERNAL SYMBOLS:             2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*** COMMAND PARAMETER ***
+
+
+  -subcommand=C:\Users\mosnier\AppData\Local\Temp\hmk787C.tmp 
+
