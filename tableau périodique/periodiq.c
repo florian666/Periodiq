@@ -304,24 +304,24 @@ struct Detail ajout[] = {
 {2006,2,3}
 };
 
-char *family[25] ={
-{"non metaux"},//0
-{"halogene"},//1
-{"gaz rare"},//2
-{"metalloide"},//3
-{"metal alcalin"},//4
-{"metal alcalino terreux"},//5
-{"lanthanide"},//6
-{"actinide"},//7
-{"metal de transition"},//8
-{"post transition metal"}//9
+char *family[10] ={
+"non metaux", //0
+"halogene", //1
+"gaz rare", //2
+"metalloide",//3
+"metal alcalin",//4
+"metal alcalino terreux",//5
+"lanthanide",//6
+"actinide",//7
+"metal de transition",//8
+"post transition metal"//9
 };
 
-char *etat[9]={
-	{"solide"},//0
-	{"gaz"},//1
-	{"liquide"},//2
-	{"inconnu"},//3
+char *etat[4]={
+    "solide", //0
+    "gaz", //1
+    "liquide", //2
+    "inconnu" //3
 };
 
 int AddIn_main(int isAppli, unsigned short OptionNum)
