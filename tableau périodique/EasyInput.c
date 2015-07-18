@@ -11,7 +11,7 @@ char *EI_input_string(int string_length, const char *chars_allowed)
 	int i;
 	int char_deleted = 0;
 	int text_displacement = 0;
-	int cap = 1;
+	int cap = 0;
 
 	char arrow[] = {0xE6, 0x9A, 0};
 
@@ -85,8 +85,17 @@ char *EI_input_string(int string_length, const char *chars_allowed)
 					char_deleted = 1;
 				}
 				break;
-
+				
 			default:
+				// Give correct value to keys with a non-ascii return values
+				if(key == KEY_CHAR_PLUS) key = '+';
+				if(key == KEY_CHAR_MINUS || key == KEY_CHAR_PMINUS) key = '-';
+				if(key == KEY_CHAR_MULT) key = '*';
+				if(key == KEY_CHAR_DIV) key = '/';
+				if(key == KEY_CHAR_ANS) key = '_';
+				if(key == KEY_CTRL_XTT) key = '#';
+				if(key == KEY_CHAR_EXP) key = 'e';
+
 				if(key > 127) // KEY_CTRL_***, etc.
 					break;
 
