@@ -12,18 +12,20 @@
 #include "periodiq.h"
 #include "MonochromeLib.h"
 
-//#include <stdlib.h>
-#include <stdio.h>
-#include <math.h>
-//#include <ctype.h>
-#include <keybios.h>
+#include "signi.h"
+
 #include "SPRITE.h"
 #include "EasyInput.h"
 
-#define PrintMini(x,y,str,m) PrintMini(x,y,(const unsigned char *)(str),m)
+#include <stdio.h>
+#include <math.h>
+#include <ctype.h>
+#include <keybios.h>
 
-//#include <stdlib.h>
-//#include <ctype.h>
+#define PrintMini(x,y,str,m) PrintMini(x,y,(const unsigned char *)(str),m)
+#define PrintXY(x,y,str,m) PrintXY(x,y,(const unsigned char *)(str),m)
+
+#define round(num) (int)(num < 0 ? (num - 0.5) : (num + 0.5))
 
 int atoi(const char *str)
 {
@@ -397,6 +399,7 @@ while(1)
 	Mini("mini",0);
 	Mini("find",1);
 	Mini("mol",2);
+	Mini("sign",3);
 
 	Mini("det",5);
 
@@ -412,6 +415,7 @@ while(1)
 		case 79 : chang=tableauEleMini(chang); break;
 		case 69 : chang=find(chang); break;
 		case 59 : calcul_mole(); break;
+		case KEY_CTRL_F4 : nb_sign(); break;
 
 		case 29 : case 31 : case 78 : chang=detailsElement(chang); break;
 
@@ -419,6 +423,7 @@ while(1)
 		}
 	}
 }
+
 
 int tableauEleMini(chang)
 {
@@ -855,6 +860,7 @@ switch(key)
 	}
 }
 }
+
 
 //****************************************************************************
 //**************                                              ****************
