@@ -17,4 +17,6 @@ SourceFile=:EasyInput.c
 SourceFile=:MonochromeLib.c
 SourceFile=:EasyInput_.src
 SourceFile=:SPRITE.c
+SourceFile=:signi.c
 HeaderFile=:EasyInput.h
+HeaderFile=:signi.h
